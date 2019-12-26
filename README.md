@@ -2,7 +2,7 @@
 dotfiles of my environment
 
 ## How To Run
-### Write every dotfile names to DOT_FILES in setup.sh
-### Run script
+### 1.Write every dotfile names to DOT_FILES in setup.sh
+### 2.Run script
 
 ./setup.sh
