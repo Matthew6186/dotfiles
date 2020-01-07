@@ -2,9 +2,10 @@
 
 #DOT_FILES
 
-# for ubuntu system
-DOT_FILES=.zshrc
-SUFFIX=ubuntu
+# for mac osx system
+DOT_FILES=(.zprofile .zshrc)
+SUFFIX=mac
+
 
 
 for file in ${DOT_FILES[@]}
