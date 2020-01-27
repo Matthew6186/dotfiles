@@ -1,8 +1,14 @@
 # Set up the prompt
 
-autoload -Uz promptinit
-promptinit
-prompt adam1
+#autoload -Uz promptinit
+#promptinit
+#prompt adam1
+
+autoload -Uz colors
+colors
+PROMPT="%{${fg[green]}${bg[blue]}%}[%n@%m]%{${reset_color}%} %(5~,%-2~/.../%2~,%~)%
+
+%# "
 
 setopt histignorealldups sharehistory
 
