@@ -3,7 +3,7 @@
 #DOT_FILES
 
 # for ubuntu system
-DOT_FILES=.zshrc
+DOT_FILES=(.zshrc .tmux.conf)
 SUFFIX=ubuntu
 
 
