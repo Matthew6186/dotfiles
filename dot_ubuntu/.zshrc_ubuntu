@@ -52,3 +52,6 @@ fi
 alias ls='ls --color'
 alias ll='ls --color -l'
 alias la='ls --color -la'
+
+# nodebrew
+PATH=$HOME/.nodebrew/current/bin:$PATH
