@@ -5,3 +5,6 @@ set-option -g default-command /usr/bin/zsh
 set -g prefix C-t
 # unset default prefix
 unbind C-b
+
+# set mouse scroll
+set -g mouse on
