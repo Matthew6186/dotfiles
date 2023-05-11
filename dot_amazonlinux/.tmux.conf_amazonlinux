@@ -1,0 +1,10 @@
+set-option -g default-shell /usr/bin/zsh
+set-option -g default-command /usr/bin/zsh
+
+# set prefix key
+set -g prefix C-t
+# unset default prefix
+unbind C-b
+
+# set mouse scroll
+#set -g mouse on
